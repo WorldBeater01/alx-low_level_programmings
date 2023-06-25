@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/* more headers goes there 
+/**
+ * main - Entry point of the program
  *
- * Main: Just doing main things
- *
- * Max min number then output number and return zero
-*/
-
+ * Return: 0 on success
+ */
 int main(void)
 {
 	int n;
@@ -24,7 +21,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is zero\n", n);
 	}
