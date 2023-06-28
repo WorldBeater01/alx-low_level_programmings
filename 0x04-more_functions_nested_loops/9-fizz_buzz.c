@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * FizzBuzz - Does fizzbuzz
+ * main - Does fizzbuzz
  *
  * Return: 0
  */
 
-void FizzBuzz(void)
+int main(void)
 {
 	int i;
 
@@ -29,14 +29,5 @@ void FizzBuzz(void)
 		}
 	}
 	printf("\n");
-}
-/**
- * main - Main section
- *
- * Return: 0
- */
-int main(void)
-{
-	FizzBuzz();
 	return (0);
 }
